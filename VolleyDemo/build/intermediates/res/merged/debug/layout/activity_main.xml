@@ -1,0 +1,62 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/gotoimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转img"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="79dp" />
+
+    <TextView
+        android:id="@+id/volleyStringGet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:text="volleyStringGet" />
+
+    <TextView
+        android:id="@+id/volleyJsonObjectGet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/volleyStringGet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="volleyJsonObjectGet" />
+
+    <TextView
+        android:id="@+id/volleyCustomGet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/volleyJsonObjectGet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:text="volleyCustomGet" />
+
+    <TextView
+        android:id="@+id/volleyStringPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="volleyStringPost"
+        android:layout_below="@+id/volleyCustomGet"
+        android:layout_alignRight="@+id/volleyCustomGet"
+        android:layout_alignEnd="@+id/volleyCustomGet" />
+
+    <TextView
+        android:id="@+id/volleyJsonObjectPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/volleyStringPost"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:text="volleyJsonObjectPost" />
+
+
+</RelativeLayout>

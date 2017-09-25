@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AnroidHttpDemo/AnroidHttpDemo.iml" filepath="$PROJECT_DIR$/AnroidHttpDemo/AnroidHttpDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSocketDemo/JavaSocketDemo.iml" filepath="$PROJECT_DIR$/JavaSocketDemo/JavaSocketDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volley/Volley.iml" filepath="$PROJECT_DIR$/Volley/Volley.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VolleyDemo/VolleyDemo.iml" filepath="$PROJECT_DIR$/VolleyDemo/VolleyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebViewDemo/WebViewDemo.iml" filepath="$PROJECT_DIR$/WebViewDemo/WebViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttpdemo/okhttpdemo.iml" filepath="$PROJECT_DIR$/okhttpdemo/okhttpdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidNet.iml" filepath="$PROJECT_DIR$/AndroidNet.iml" />
+    </modules>
+  </component>
+</project>

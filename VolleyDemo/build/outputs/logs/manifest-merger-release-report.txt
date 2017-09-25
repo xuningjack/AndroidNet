@@ -1,0 +1,67 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:3:5-38
+	android:versionName
+		ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:5:5-30
+		INJECTED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml
+		INJECTED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml
+	android:versionCode
+		ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:4:5-28
+		INJECTED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml
+		INJECTED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:7:22-64
+application
+ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:9:5-26:19
+MERGED from [AndroidNet:Volley:unspecified] F:\PWRD\share\AndroidNet\VolleyDemo\build\intermediates\exploded-aar\AndroidNet\Volley\unspecified\AndroidManifest.xml:11:5-25:19
+	android:label
+		ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:13:9-41
+	android:allowBackup
+		ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:12:9-45
+	android:theme
+		ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:14:9-40
+	android:name
+		ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:10:9-38
+activity#com.example.volley_demo.MainActivity
+ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:15:9-23:20
+	android:label
+		ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:17:13-45
+	android:name
+		ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:16:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:21:27-74
+activity#com.example.volley_demo.ImageActivity
+ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:25:9-50
+	android:name
+		ADDED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml:25:19-48
+uses-sdk
+INJECTED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [AndroidNet:Volley:unspecified] F:\PWRD\share\AndroidNet\VolleyDemo\build\intermediates\exploded-aar\AndroidNet\Volley\unspecified\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml
+		INJECTED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml
+		INJECTED from F:\PWRD\share\AndroidNet\VolleyDemo\AndroidManifest.xml
+activity#com.example.volley.MainActivity
+ADDED from [AndroidNet:Volley:unspecified] F:\PWRD\share\AndroidNet\VolleyDemo\build\intermediates\exploded-aar\AndroidNet\Volley\unspecified\AndroidManifest.xml:16:9-24:20
+	android:label
+		ADDED from [AndroidNet:Volley:unspecified] F:\PWRD\share\AndroidNet\VolleyDemo\build\intermediates\exploded-aar\AndroidNet\Volley\unspecified\AndroidManifest.xml:18:13-45
+	android:name
+		ADDED from [AndroidNet:Volley:unspecified] F:\PWRD\share\AndroidNet\VolleyDemo\build\intermediates\exploded-aar\AndroidNet\Volley\unspecified\AndroidManifest.xml:17:13-59
