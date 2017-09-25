@@ -1,1 +1,1 @@
-include ':Volley', ':VolleyDemo', ':JavaSocketDemo', ':WebViewDemo', ':AnroidHttpDemo', ':OkHttpdemo'
+include ':Volley', ':VolleyDemo', ':JavaSocketDemo', ':WebViewDemo', ':AnroidHttpDemo', ':OkHttpDemo'
