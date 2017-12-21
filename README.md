@@ -39,5 +39,21 @@ Volley Module中封装了自定义的请求对象CustomVolleyRequest和请求回
 
 
 ## 5 OkHttpDemo  
-本demo演示了OkHttp的常规使用和封装。
+本demo演示了OkHttp的常规使用和封装。  
+demo中封装了CommonOkHttpClient里面有执行get、post、downloadFile的请求。  
+
+eg：
+CommonOkHttpClient.post(CommonRequest.createPostRequest(CITY_URL, params),
+                new DisposeDataHandler(new DisposeDataListener<JSONObject>() {  
+                    @Override  
+                    public void onSuccess(JSONObject responseObj) {  
+                        mResult.setText(responseObj.toString());  
+                    }  
+
+                    @Override  
+                    public void onFail(Object responseObj) {  
+                        Log.e(TAG, "post onFail------" + responseObj.toString());  
+                    }  
+                }));  
+
 
