@@ -49,7 +49,6 @@ CommonOkHttpClient.post(CommonRequest.createPostRequest(CITY_URL, params),
                     public void onSuccess(JSONObject responseObj) {  
                         mResult.setText(responseObj.toString());  
                     }  
-
                     @Override  
                     public void onFail(Object responseObj) {  
                         Log.e(TAG, "post onFail------" + responseObj.toString());  
