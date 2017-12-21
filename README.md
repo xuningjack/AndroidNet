@@ -1,5 +1,5 @@
 # AndroidNet
-JAVA网络、Android网络操作（网络请求、WebView相关、常用第三方框架OkHttp&amp;Volley）
+本项目涵盖了JAVA网络、Android网络操作（网络请求、WebView相关、常用第三方框架OkHttp&amp;Volley）
 
 
 ## JavaSocketDemo  
