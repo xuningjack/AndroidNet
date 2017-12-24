@@ -17,24 +17,23 @@
 
 Volley Module中封装了自定义的请求对象CustomVolleyRequest和请求回调VolleyListener。  
 使用其封装get请求如下：
-  /**  
+    /**  
 	 * 使用自定义的get方式请求数据，二次封装  
 	 */  
 	private void volleyCustomGet(){   
-		CustomVolleyRequest.requestGet(url, 
-		"volleyCustomGet", 
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;CustomVolleyRequest.requestGet(url, "volleyCustomGet", 
 		new VolleyListener(this, VolleyListener.mListener, VolleyListener.mErrorListener) {  
-			@Override  
-			public void onMySuccess(String response) {  
-			  Toast.makeText(MainActivity.this, response, Toast.LENGTH_LONG).show();  
-			  Log.d(TAG, "volleyCustomGet-----" + response);  
-			}  
-			@Override  
-			public void onMyError(VolleyError error) {  
-				Toast.makeText(MainActivity.this, error.getMessage(), Toast.LENGTH_LONG).show();  
-				Log.d(TAG, "volleyCustomGet error-----" + error.getMessage());  
-			}  
-		});  
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@Override  
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;public void onMySuccess(String response) {  
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Toast.makeText(MainActivity.this, response, Toast.LENGTH_LONG).show();  
+			  &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Log.d(TAG, "volleyCustomGet-----" + response);  
+			&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}  
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@Override  
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;public void onMyError(VolleyError error) {  
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Toast.makeText(MainActivity.this, error.getMessage(), Toast.LENGTH_LONG).show();  
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Log.d(TAG, "volleyCustomGet error-----" + error.getMessage());  
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}  
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;});  
 	}  
 
 
@@ -45,14 +44,14 @@ demo中封装了CommonOkHttpClient里面有执行get、post、downloadFile的请
 eg：
 CommonOkHttpClient.post(CommonRequest.createPostRequest(CITY_URL, params),
                 new DisposeDataHandler(new DisposeDataListener<JSONObject>() {  
-                    @Override  
-                    public void onSuccess(JSONObject responseObj) {  
-                        mResult.setText(responseObj.toString());  
-                    }  
-                    @Override  
-                    public void onFail(Object responseObj) {  
-                        Log.e(TAG, "post onFail------" + responseObj.toString());  
-                    }  
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@Override  
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;public void onSuccess(JSONObject responseObj) {  
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;mResult.setText(responseObj.toString());  
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}  
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;@Override  
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;public void onFail(Object responseObj) {  
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Log.e(TAG, "post onFail------" + responseObj.toString());  
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; }  
                 }));  
 
 
