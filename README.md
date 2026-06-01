@@ -1,6 +1,8 @@
 # AndroidNet
 本项目涵盖了JAVA网络、Android网络操作（网络请求、WebView相关、常用第三方框架OkHttp&amp;Volley）
 
+### 项目架构：
+<img src="architecture.png" alt="项目整体架构图" >
 
 ## 1 JavaSocketDemo  
 本demo演示了InetAddress、URL的用法，模拟单客户端、多客户端的socket和udp的通信。  
